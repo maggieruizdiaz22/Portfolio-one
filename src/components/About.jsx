@@ -21,12 +21,12 @@ const About=()=>{
         <br/>
         I work with a variety of technologies in web development, including languages such as JavaScript and SQL.
         <br/>
-        On the Front-End, I have experience with:
+        As a Front-End, I have experience with:
          React, Redux, Redux Toolkit, Hooks, React-Router, Bootstrap, CSS and more.
         <br/>
-        In the Back-End, I have worked with Node.js and Express, and in terms of databases, I have experience with:
+        As a Back-End, I have worked with Node.js and Express, and in terms of databases, I have experience with:
         <br/>
-        Sequelize, PostgreSQL, SQLite, MySQL among others. I also have experience with tools like GitHub, Postman, Trello, Slack, Visual Studio, Vercel, and Firebase. I am interested in acquiring new experiences in the world of technology and continue learning to visualize other realities and continue working on projects that involve real motives and causes.
+        Sequelize, PostgreSQL, SQLite, MySQL among others. I also have experience with tools like GitHub, Postman, Trello, Slack, Visual Studio, Vercel, and Firebase. I am interested in acquiring new experiences in the world of technology and continue learning to visualize other realities and continue working on projects that involves solving real issues.
        <br/>
         </p>
         <br/>
