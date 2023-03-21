@@ -2,6 +2,7 @@ import React from 'react'
 import {AiFillGithub} from 'react-icons/ai'
 import {AiFillLinkedin} from 'react-icons/ai'
 import {FaInstagram} from 'react-icons/fa'
+import {BsFillFileEarmarkPersonFill} from 'react-icons/bs'
 
 const date = new Date();
 const year = date.getFullYear();
@@ -25,6 +26,9 @@ const Footer = () => {
               </a>
               <a href="https://www.instagram.com/ant.ruizdiaz/?igshid=YmMyMTA2M2Y%3D">
                 <FaInstagram size={25} />
+              </a>
+              <a href="/Resumefinalconfoto.pdf">
+             <BsFillFileEarmarkPersonFill size={23}/>
               </a>
             </div>
           </div>
