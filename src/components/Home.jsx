@@ -69,7 +69,7 @@ export const Home = () => {
           <img
             src={headerImg}
             alt="my profile"
-            className="rounded-2xl mx-auto w-2/3 md:w-full pl-7 pb-[35%]"
+            className="rounded-2xl mx-auto w-2/3 md:w-full pl-7 pt-[30%]"
           />
         </div>
       </div>
