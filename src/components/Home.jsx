@@ -19,8 +19,8 @@ export const Home = () => {
 
   return (
     <div name="home" className="min-h-screen bg-gradient-to-b from-black via-black to-gray-800 overflow-y-auto">
-      <div className="max-w-screen-lg mx-auto flex flex-col md:flex-row items-center justify-center h-full px-4">
-        <div className="flex flex-col justify-center h-full">
+      <div className="max-w-screen-lg mx-auto flex flex-col md:flex-row items-center justify-center h-full px-4 ">
+        <div className="flex flex-col justify-center h-full pt-[37%]">
           <div className="wellcome">
             <h2>
               Wellcome...
