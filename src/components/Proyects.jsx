@@ -28,9 +28,9 @@ const Portfolio = () => {
             <img src={src} alt="" className="rounded-md duration-200 hover:scale-105 cursor-pointer"/>
             <div className="flex items-center justify-center">
               <a href="https://simpleservice.vercel.app/">
-              <button className="w-1/2 py-3 m-4 hover:scale-105">Demo</button>
+              <button className=" w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">Demo</button>
               </a>
-              <button className="w-1/2 py-3 m-4 hover:scale-105">Code</button>
+              <button className="px-6 py-3 w-1/2 m-4 duration-200 hover:scale-105">Code</button>
             </div>
           </div>         
            ) )

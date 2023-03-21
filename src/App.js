@@ -1,4 +1,4 @@
-import About from "./components/About";
+import About from"./components/About.jsx"
 import Contacts from "./components/Contacts";
 import Experience from "./components/Experience";
 
