@@ -14,7 +14,7 @@ const Portfolio = () => {
     id:2,
     src: videogame,
     github: "https://github.com/maggieruizdiaz22/PI-Videogames-main",
-    live: "",
+    live: "https://pi-videogames-main-lime.vercel.app/",
 
   },
 ]
