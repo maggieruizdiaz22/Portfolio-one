@@ -17,7 +17,7 @@ const NavBar = () => {
     },
     {
       id: 3,
-      link: "proyects",
+      link: "projects",
     },
     {
       id: 4,
@@ -27,16 +27,12 @@ const NavBar = () => {
       id: 5,
       link: "contact",
     },
-    {
-      id: 6,
-      link: "resume",
-    },
   ];
 
   return (
     <div className="flex justify-between items-center w-full h-20 px-4 bg-black text-white fixed z-50">
       <div>
-        <h1 className="text-5xl font-siganture ml-2">/Ant.m.rd</h1>
+        <h1 className="text-5xl font-siganture ml-2">/Ant.m.rd/</h1>
       </div>
 
       <ul className="hidden md:flex">

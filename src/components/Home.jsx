@@ -23,7 +23,7 @@ export const Home = () => {
         <div className="flex flex-col justify-center h-full pt-[37%]">
           <div className="wellcome">
             <h2>
-              Wellcome...
+              Welcome...
             </h2>
           </div>
           <p className="text-gray-500 sm:text-4xl py-4 max-w-md">
@@ -53,12 +53,12 @@ export const Home = () => {
           </p>
           <div>
             <Link
-              to="proyects"
+              to="projects"
               smooth
               duration={500}
               className="group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer"
             >
-              Proyects
+              Projects
               <span className="group-hover:rotate-90 duration-300">
                 <HiArrowNarrowRight className="ml-1" />
               </span>
@@ -69,7 +69,7 @@ export const Home = () => {
           <img
             src={headerImg}
             alt="my profile"
-            className="rounded-2xl mx-auto w-2/3 md:w-full pl-7 pt-[30%]"
+            className="rounded-2xl mx-auto lg:w-full md:w-3/4 sm:w-1/4 pl-7 pt-[30%]"
           />
         </div>
       </div>

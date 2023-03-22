@@ -14,7 +14,7 @@
         uppercase font-[800]
     }
     .wellcome::before{
-      @apply content-['Wellcome...']
+      @apply content-['Welcome...']
       absolute text-violet-400  border-r-2 border-violet-400 top-0 left-0 w-0 h-[100%] overflow-hidden animate-animate
     }
   
