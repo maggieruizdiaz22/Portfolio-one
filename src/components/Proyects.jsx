@@ -1,13 +1,14 @@
 import React from 'react'
 import simpleservice from "../assetes/portfolio/simpleservice.png"
 import videogame from "../assetes/portfolio/videogame.png"
+import simpleServicePortfolio from "../assetes/portfolio/simpleServicePortfolio.gif"
 
 const Portfolio = () => {
   const proyects = [{
     id: 1,
-    src: simpleservice,
+    src: simpleServicePortfolio,
     github: "https://github.com/PDG94/simpleservice",
-    live: "https://simpleservice.vercel.app/",
+    live: "https://simpleservice-lemon.vercel.app/",
    
   },
   {
