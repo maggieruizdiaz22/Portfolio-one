@@ -1,5 +1,4 @@
 import React from 'react'
-import simpleservice from "../assetes/portfolio/simpleservice.png"
 import videogame from "../assetes/portfolio/videogame.png"
 import simpleServicePortfolio from "../assetes/portfolio/simpleServicePortfolio.gif"
 
