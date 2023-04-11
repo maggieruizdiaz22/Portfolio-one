@@ -51,7 +51,7 @@ export const SocialLinks = () => {
                 Resume <BsFillPersonLinesFill size={30}/>
                 </>
             ),
-            href: "/Resumefinalconfoto.pdf",
+            href: "/Antonella Ruiz Diaz Resume Cnv(1).pdf",
             style: "rounded-br-md",
             download: true,
         },

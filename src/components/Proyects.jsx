@@ -8,7 +8,7 @@ const Portfolio = () => {
     id: 1,
     src: simpleServicePortfolio,
     github: "https://github.com/PDG94/simpleservice",
-    live: "https://simpleservice-lemon.vercel.app/",
+    live: "https://simpleservice-six.vercel.app/",
    
   },
   {

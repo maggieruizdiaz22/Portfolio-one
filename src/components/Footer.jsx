@@ -27,7 +27,7 @@ const Footer = () => {
               <a href="https://www.instagram.com/ant.ruizdiaz/?igshid=YmMyMTA2M2Y%3D">
                 <FaInstagram size={25} />
               </a>
-              <a href="/Resumefinalconfoto.pdf">
+              <a href="/Antonella Ruiz Diaz Resume Cnv.pdf">
              <BsFillFileEarmarkPersonFill size={23}/>
               </a>
             </div>
