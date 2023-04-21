@@ -1,6 +1,7 @@
 import React from 'react'
 import videogame from "../assetes/portfolio/videogame.png"
 import simpleServicePortfolio from "../assetes/portfolio/simpleServicePortfolio.gif"
+import videoReproductor from "../assetes/portfolio/videoReproductor.png"
 
 const Portfolio = () => {
   const proyects = [{
@@ -15,6 +16,13 @@ const Portfolio = () => {
     src: videogame,
     github: "https://github.com/maggieruizdiaz22/PI-Videogames-main",
     live: "https://pi-videogames-main-lime.vercel.app/",
+
+  },
+  {
+    id:3,
+    src: videoReproductor,
+    github: "https://github.com/maggieruizdiaz22/Reproductor-video",
+    live: "https://vermillion-fudge-f2e96b.netlify.app/",
 
   },
 ]
