@@ -25,6 +25,13 @@ const Portfolio = () => {
     live: "https://vermillion-fudge-f2e96b.netlify.app/",
 
   },
+  {
+    id:4,
+    src: Conversor,
+    github: "https://github.com/maggieruizdiaz22/Conversor",
+    live: "https://conversor-app.netlify.app/",
+
+  },
 ]
   return (
     <div name="projects" className="bg-gradient-to-b from-black to-gray-800 w-full md:h-screen text-white"
