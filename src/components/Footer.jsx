@@ -17,7 +17,7 @@ const Footer = () => {
             <div className="flex justify-center lg:justify-start mb-4 lg:mb-0">
               <p>©{year}</p>
             </div>
-            <div className="flex justify-center lg:justify-end space-x-4">
+            <div className="flex justify-center lg:justify-end space-x-4 pr-5 ">
               <a href="https://github.com/maggieruizdiaz22">
                 <AiFillGithub size={25} style={style} />
               </a>

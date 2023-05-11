@@ -26,7 +26,7 @@ export const Home = () => {
               Welcome...
             </h2>
           </div>
-          <p className="text-gray-500 sm:text-4xl py-4 max-w-md">
+          <div className="text-gray-500 sm:text-4xl py-4 max-w-md">
             My name is Antonella M. Ruiz Diaz 
             <br/>
             <div className="py-4 max-w-md">
@@ -38,7 +38,7 @@ export const Home = () => {
                   startDelay={1000}
                   cursorColor="#3F3D56"
                   multiText={[
-                    'Full Web Stack Developer',
+                    'Full Stack Web Developer',
                     'Desarrolladora web',
                     'Passionate about technology',
                     'Active learner Research',
@@ -50,7 +50,7 @@ export const Home = () => {
                 />
               </span>
             </div>
-          </p>
+          </div>
           <div>
             <Link
               to="projects"

@@ -2,7 +2,7 @@ import React from 'react'
 import videogame from "../assetes/portfolio/videogame.png"
 import simpleServicePortfolio from "../assetes/portfolio/simpleServicePortfolio.gif"
 import videoReproductor from "../assetes/portfolio/videoReproductor.png"
-import convertor from "../assetes/portfolio/convertor.png"
+import loquequieras from "../assetes/portfolio/loquequieras.png"
 
 const Portfolio = () => {
   const proyects = [{
@@ -19,10 +19,16 @@ const Portfolio = () => {
     live: "https://pi-videogames-main-lime.vercel.app/",
 
   },
-
   {
     id:3,
-    src: convertor,
+    src: videoReproductor,
+    github: "https://github.com/maggieruizdiaz22/Reproductor-video",
+    live: "https://vermillion-fudge-f2e96b.netlify.app/",
+
+  },
+  {
+    id:4,
+    src: loquequieras,
     github: "https://github.com/maggieruizdiaz22/Conversor",
     live: "https://conversor-app.netlify.app/",
 
