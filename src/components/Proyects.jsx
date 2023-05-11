@@ -2,6 +2,7 @@ import React from 'react'
 import videogame from "../assetes/portfolio/videogame.png"
 import simpleServicePortfolio from "../assetes/portfolio/simpleServicePortfolio.gif"
 import videoReproductor from "../assetes/portfolio/videoReproductor.png"
+import convertor from "../assetes/portfolio/convertor.png"
 
 const Portfolio = () => {
   const proyects = [{
@@ -27,7 +28,7 @@ const Portfolio = () => {
   },
   {
     id:4,
-    src: Conversor,
+    src: convertor,
     github: "https://github.com/maggieruizdiaz22/Conversor",
     live: "https://conversor-app.netlify.app/",
 
