@@ -19,15 +19,9 @@ const Portfolio = () => {
     live: "https://pi-videogames-main-lime.vercel.app/",
 
   },
+
   {
     id:3,
-    src: videoReproductor,
-    github: "https://github.com/maggieruizdiaz22/Reproductor-video",
-    live: "https://vermillion-fudge-f2e96b.netlify.app/",
-
-  },
-  {
-    id:4,
     src: convertor,
     github: "https://github.com/maggieruizdiaz22/Conversor",
     live: "https://conversor-app.netlify.app/",
