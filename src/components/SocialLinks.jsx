@@ -36,7 +36,7 @@ export const SocialLinks = () => {
             href: "https://www.instagram.com/ant.ruizdiaz/?igshid=YmMyMTA2M2Y%3D",
         },
         {
-            id:3,
+            id:4,
             child:(
                 <>
                 Mail <HiOutlineMail size={30}/>
@@ -45,7 +45,7 @@ export const SocialLinks = () => {
             href: "mailto:maggieruizdiaz20@gmail.com",
         },
         {
-            id:4,
+            id:5,
             child:(
                 <>
                 Resume <BsFillPersonLinesFill size={30}/>
