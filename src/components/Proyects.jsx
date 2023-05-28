@@ -30,7 +30,7 @@ const Portfolio = () => {
     id:4,
     src: loquequieras,
     github: "https://github.com/maggieruizdiaz22/Conversor",
-    live: "https://conversor-app.netlify.app/",
+    live: "https://conversorapp.netlify.app/",
 
   }
 ]
