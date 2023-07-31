@@ -3,37 +3,41 @@ import videogame from "../assetes/portfolio/videogame.png"
 import simpleServicePortfolio from "../assetes/portfolio/simpleServicePortfolio.gif"
 import videoReproductor from "../assetes/portfolio/videoReproductor.png"
 import loquequieras from "../assetes/portfolio/loquequieras.png"
+import petSociety from "../assetes/portfolio/Petsociety.gif"
 
 const Portfolio = () => {
-  const proyects = [{
-    id: 1,
-    src: simpleServicePortfolio,
-    github: "https://github.com/PDG94/simpleservice",
-    live: "https://simpleservice-six.vercel.app/",
-   
-  },
-  {
-    id:2,
-    src: videogame,
-    github: "https://github.com/maggieruizdiaz22/PI-Videogames-main",
-    live: "https://pi-videogames-main-lime.vercel.app/",
-
-  },
-  {
-    id:3,
-    src: videoReproductor,
-    github: "https://github.com/maggieruizdiaz22/Reproductor-video",
-    live: "https://vermillion-fudge-f2e96b.netlify.app/",
-
-  },
-  {
-    id:4,
-    src: loquequieras,
-    github: "https://github.com/maggieruizdiaz22/Conversor",
-    live: "https://conversorapp.netlify.app/",
-
-  }
-]
+  const proyects = [
+    {
+      id: 1,
+      src: simpleServicePortfolio,
+      github: "https://github.com/PDG94/simpleservice",
+      live: "https://simpleservice-six.vercel.app/",
+    },
+    {
+      id: 2,
+      src: videogame,
+      github: "https://github.com/maggieruizdiaz22/PI-Videogames-main",
+      live: "https://pi-videogames-main-lime.vercel.app/",
+    },
+    {
+      id: 3,
+      src: videoReproductor,
+      github: "https://github.com/maggieruizdiaz22/Reproductor-video",
+      live: "https://vermillion-fudge-f2e96b.netlify.app/",
+    },
+    {
+      id: 4,
+      src: loquequieras,
+      github: "https://github.com/maggieruizdiaz22/Conversor",
+      live: "https://conversorapp.netlify.app/",
+    },
+    {
+      id: 5,
+      src: petSociety,
+      github: "https://github.com/",
+      live: "https://pet-society-eight.vercel.app/",
+    },
+  ];
   return (
     <div name="projects" className="bg-gradient-to-b from-black to-gray-800 w-full md:h-screen text-white"
     >
