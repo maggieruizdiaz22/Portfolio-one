@@ -5,57 +5,56 @@ import {BsFillPersonLinesFill} from 'react-icons/bs';
 import {FaInstagram} from 'react-icons/fa'
 
 export const SocialLinks = () => {
-    const links=[
-        {
-            id:1,
-            child:(
-                <>
-                LinkedlIn <FaLinkedin size={30}/>
-                </>
-            ),
-            href: "https://www.linkedin.com/in/magal%C3%ADruizdiaz/",
-            style: "rounded-tr-md"
-        },
-        {
-            id:2,
-            child:(
-                <>
-                GitHub <FaGithub size={30}/>
-                </>
-            ),
-            href: "https://github.com/maggieruizdiaz22",
-            
-        },
-        {
-            id:3,
-            child:(
-                <>
-                Instagram <FaInstagram size={30}/>
-                </>
-            ),
-            href: "https://www.instagram.com/ant.ruizdiaz/?igshid=YmMyMTA2M2Y%3D",
-        },
-        {
-            id:4,
-            child:(
-                <>
-                Mail <HiOutlineMail size={30}/>
-                </>
-            ),
-            href: "mailto:maggieruizdiaz20@gmail.com",
-        },
-        {
-            id:5,
-            child:(
-                <>
-                Resume <BsFillPersonLinesFill size={30}/>
-                </>
-            ),
-            href: "/AntonellaRuizDiazresumecnv(1).pdf",
-            style: "rounded-br-md",
-            download: true,
-        },
-    ]
+    const links = [
+      {
+        id: 1,
+        child: (
+          <>
+            LinkedlIn <FaLinkedin size={30} />
+          </>
+        ),
+        href: "https://www.linkedin.com/in/magal%C3%ADruizdiaz/",
+        style: "rounded-tr-md",
+      },
+      {
+        id: 2,
+        child: (
+          <>
+            GitHub <FaGithub size={30} />
+          </>
+        ),
+        href: "https://github.com/maggieruizdiaz22",
+      },
+      {
+        id: 3,
+        child: (
+          <>
+            Instagram <FaInstagram size={30} />
+          </>
+        ),
+        href: "https://www.instagram.com/ant.ruizdiaz/?igshid=YmMyMTA2M2Y%3D",
+      },
+      {
+        id: 4,
+        child: (
+          <>
+            Mail <HiOutlineMail size={30} />
+          </>
+        ),
+        href: "mailto:maggieruizdiaz20@gmail.com",
+      },
+      {
+        id: 5,
+        child: (
+          <>
+            Resume <BsFillPersonLinesFill size={30} />
+          </>
+        ),
+        href: "/AntonellaMRuizDiazResume.pdf",
+        style: "rounded-br-md",
+        download: true,
+      },
+    ];
   return (
     <div className="hidden lg:flex flex-col top-[35%] left-0 fixed">
         <ul>
