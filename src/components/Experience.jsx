@@ -11,82 +11,110 @@ import sass from  '../assetes/portfolio/sass.png'
 import tailwind from  '../assetes/portfolio/tailwind.png'
 import bootstrap from  '../assetes/portfolio/bootstrap.png'
 import firebase from '../assetes/portfolio/firebase.png'
+import PHP from '../assetes/portfolio/PHP.png'
+import Laravel from '../assetes/portfolio/laravel.png'
+import Nest from '../assetes/portfolio/nest.png'
+import Docker from '../assetes/portfolio/docker.png'
 
 const Experience = () => {
     const techs = [
-        {
-            id:1,
-            src:javascrip,
-            title:"JavaScript",
-            style:"shadow-yellow-500",
-        },
-        {
-            id:2,
-            src:html,
-            title:"HTML",
-            style:"shadow-orange-500",
-        },
-        {
-            id:3,
-            src:redux,
-            title:"Redux",
-            style:"shadow-violet-500",
-        },
-        {
-            id:4,
-            src:node,
-            title:"Node",
-            style:"shadow-green-500",
-        },
-        {
-            id:5,
-            src:css,
-            title:"CSS",
-            style:"shadow-blue-500",
-        },
-        {
-            id:6,
-            src:react,
-            title:"React",
-            style:"shadow-cyan-500",
-        },
-        {
-            id:7,
-            src:sequelize,
-            title:"Sequelize",
-            style:"shadow-blue-500",
-        },
-        {
-            id:8,
-            src:sql,
-            title:"Postgresql",
-            style:"shadow-sky-500",
-        },
-        {
-            id:9,
-            src:sass,
-            title:"Sass",
-            style:"shadow-pink-500",
-        },
-        {
-            id:10,
-            src:tailwind,
-            title:"Tailwind",
-            style:"shadow-teal-500",
-        },
-        {
-            id:11,
-            src:bootstrap,
-            title:"Bootstrap",
-            style:"shadow-violet-500",
-        },
-        {
-            id:12,
-            src:firebase,
-            title:"Firebase",
-            style:"shadow-yellow-500",
-        },
-    ]
+      {
+        id: 1,
+        src: javascrip,
+        title: "JavaScript",
+        style: "shadow-yellow-500",
+      },
+      {
+        id: 2,
+        src: html,
+        title: "HTML",
+        style: "shadow-orange-500",
+      },
+      {
+        id: 3,
+        src: redux,
+        title: "Redux",
+        style: "shadow-violet-500",
+      },
+      {
+        id: 4,
+        src: node,
+        title: "Node",
+        style: "shadow-green-500",
+      },
+      {
+        id: 5,
+        src: css,
+        title: "CSS",
+        style: "shadow-blue-500",
+      },
+      {
+        id: 6,
+        src: react,
+        title: "React",
+        style: "shadow-cyan-500",
+      },
+      {
+        id: 7,
+        src: sequelize,
+        title: "Sequelize",
+        style: "shadow-blue-500",
+      },
+      {
+        id: 8,
+        src: sql,
+        title: "Postgresql",
+        style: "shadow-sky-500",
+      },
+      {
+        id: 9,
+        src: sass,
+        title: "Sass",
+        style: "shadow-pink-500",
+      },
+      {
+        id: 10,
+        src: tailwind,
+        title: "Tailwind",
+        style: "shadow-teal-500",
+      },
+      {
+        id: 11,
+        src: bootstrap,
+        title: "Bootstrap",
+        style: "shadow-violet-500",
+      },
+      {
+        id: 12,
+        src: firebase,
+        title: "Firebase",
+        style: "shadow-yellow-500",
+      },
+      {
+        id: 13,
+        src: Laravel,
+        title: "Laravel",
+        style: "shadow-red-500",
+      },
+      {
+        id: 14,
+        src: PHP,
+        title: "Php",
+        style: "shadow-blue-500",
+      },
+      {
+        id: 15,
+        src: Nest,
+        title: "Nest.js",
+        style: "shadow-red-500",
+      },
+      {
+        id: 16,
+        src: Docker,
+        title: "Docker",
+        style: "shadow-blue-500",
+      },
+    ];
     
     return (
         <div
