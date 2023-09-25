@@ -4,6 +4,7 @@ import simpleServicePortfolio from "../assetes/portfolio/simpleServicePortfolio.
 import videoReproductor from "../assetes/portfolio/videoReproductor.png"
 import loquequieras from "../assetes/portfolio/loquequieras.png"
 import petSociety from "../assetes/portfolio/Petsociety.gif"
+import ListoParaLlevar from "../assetes/portfolio/ListoParaLlevar.png"
 
 const Portfolio = () => {
   const proyects = [
@@ -34,9 +35,15 @@ const Portfolio = () => {
     {
       id: 5,
       src: petSociety,
-      github: "https://github.com/",
+      github: "https://github.com/maggieruizdiaz22/Pet-Society",
       live: "https://pet-society-eight.vercel.app/",
     },
+    {
+      id: 5,
+      src:  ListoParaLlevar,
+      github: "https://github.com/No-Country/s10-10-m-php-react-amazon",
+      live: "https://s10-10-m-php-react.onrender.com/"
+    }
   ];
   return (
     <div name="projects" className="bg-gradient-to-b from-black to-gray-800 w-full md:h-screen text-white"

@@ -50,7 +50,7 @@ export const SocialLinks = () => {
             Resume <BsFillPersonLinesFill size={30} />
           </>
         ),
-        href: "/AntonellaMRuizDiazResume.pdf",
+        href: "/AntonellaM.RuizDiazResume.pdf",
         style: "rounded-br-md",
         download: true,
       },
