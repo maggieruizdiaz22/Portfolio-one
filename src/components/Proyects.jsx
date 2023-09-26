@@ -12,7 +12,7 @@ const Portfolio = () => {
       id: 1,
       src: simpleServicePortfolio,
       github: "https://github.com/PDG94/simpleservice",
-      live: "https://simpleservice-six.vercel.app/",
+      live: "https://simple-service-ivory.vercel.app/",
     },
     {
       id: 2,
@@ -40,10 +40,10 @@ const Portfolio = () => {
     },
     {
       id: 5,
-      src:  ListoParaLlevar,
+      src: ListoParaLlevar,
       github: "https://github.com/No-Country/s10-10-m-php-react-amazon",
-      live: "https://s10-10-m-php-react.onrender.com/"
-    }
+      live: "https://s10-10-m-php-react.onrender.com/",
+    },
   ];
   return (
     <div name="projects" className="bg-gradient-to-b from-black to-gray-800 w-full md:h-screen text-white"
