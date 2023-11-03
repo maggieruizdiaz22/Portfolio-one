@@ -1,10 +1,10 @@
 import React from 'react'
-import videogame from "../assetes/portfolio/videogame.png"
 import simpleServicePortfolio from "../assetes/portfolio/simpleServicePortfolio.gif"
-import videoReproductor from "../assetes/portfolio/videoReproductor.png"
 import loquequieras from "../assetes/portfolio/loquequieras.png"
 import petSociety from "../assetes/portfolio/Petsociety.gif"
 import ListoParaLlevar from "../assetes/portfolio/ListoParaLlevar.png"
+import MarcosWeb from "../assetes/portfolio/marcosweb.gif"
+import CyL from "../assetes/portfolio/C&Lgift.gif"
 
 const Portfolio = () => {
   const proyects = [
@@ -16,21 +16,21 @@ const Portfolio = () => {
     },
     {
       id: 2,
-      src: videogame,
-      github: "https://github.com/maggieruizdiaz22/PI-Videogames-main",
-      live: "https://pi-videogames-main-lime.vercel.app/",
+      src: CyL,
+      github: "https://github.com/maggieruizdiaz22/LawFirmWebPage",
+      live: "https://law-firm-web-pag-erbd.vercel.app/index.html",
     },
     {
       id: 3,
-      src: videoReproductor,
-      github: "https://github.com/maggieruizdiaz22/Reproductor-video",
-      live: "https://vermillion-fudge-f2e96b.netlify.app/",
+      src: MarcosWeb,
+      github: "https://github.com/maggieruizdiaz22/WebSiteBuildCraft",
+      live: "https://tileservices.netlify.app/",
     },
     {
       id: 4,
-      src: loquequieras,
-      github: "https://github.com/maggieruizdiaz22/Conversor",
-      live: "https://conversorapp.netlify.app/",
+      src: ListoParaLlevar,
+      github: "https://github.com/No-Country/s10-10-m-php-react-amazon",
+      live: "https://s10-10-m-php-react.onrender.com/",
     },
     {
       id: 5,
@@ -39,10 +39,10 @@ const Portfolio = () => {
       live: "https://pet-society-eight.vercel.app/",
     },
     {
-      id: 5,
-      src: ListoParaLlevar,
-      github: "https://github.com/No-Country/s10-10-m-php-react-amazon",
-      live: "https://s10-10-m-php-react.onrender.com/",
+      id: 6,
+      src: loquequieras,
+      github: "https://github.com/maggieruizdiaz22/Conversor",
+      live: "https://conversorapp.netlify.app/",
     },
   ];
   return (
