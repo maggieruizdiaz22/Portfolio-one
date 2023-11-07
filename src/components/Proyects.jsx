@@ -2,35 +2,36 @@ import React from 'react'
 import simpleServicePortfolio from "../assetes/portfolio/simpleServicePortfolio.gif"
 import loquequieras from "../assetes/portfolio/loquequieras.png"
 import petSociety from "../assetes/portfolio/Petsociety.gif"
-import ListoParaLlevar from "../assetes/portfolio/ListoParaLlevar.png"
+import ListoParaLlevar from "../assetes/portfolio/listoparallevar.gif"
 import MarcosWeb from "../assetes/portfolio/marcosweb.gif"
 import CyL from "../assetes/portfolio/C&Lgift.gif"
+import earthpoint from "../assetes/portfolio/earthPoint.gif"
 
 const Portfolio = () => {
   const proyects = [
     {
       id: 1,
-      src: simpleServicePortfolio,
-      github: "https://github.com/PDG94/simpleservice",
-      live: "https://simple-service-ivory.vercel.app/",
-    },
-    {
-      id: 2,
       src: CyL,
       github: "https://github.com/maggieruizdiaz22/LawFirmWebPage",
       live: "https://law-firm-web-pag-erbd.vercel.app/index.html",
     },
     {
-      id: 3,
+      id: 2,
       src: MarcosWeb,
       github: "https://github.com/maggieruizdiaz22/WebSiteBuildCraft",
       live: "https://tileservices.netlify.app/",
     },
     {
-      id: 4,
+      id: 3,
       src: ListoParaLlevar,
       github: "https://github.com/No-Country/s10-10-m-php-react-amazon",
       live: "https://s10-10-m-php-react.onrender.com/",
+    },
+    {
+      id: 4,
+      src: earthpoint,
+      github: "https://github.com/No-Country/s11-20-m-typescript-react",
+      live: "https://github.com/No-Country/s10-10-m-php-react-amazon",
     },
     {
       id: 5,
@@ -40,6 +41,12 @@ const Portfolio = () => {
     },
     {
       id: 6,
+      src: simpleServicePortfolio,
+      github: "https://github.com/PDG94/simpleservice",
+      live: "https://simple-service-ivory.vercel.app/",
+    },
+    {
+      id: 7,
       src: loquequieras,
       github: "https://github.com/maggieruizdiaz22/Conversor",
       live: "https://conversorapp.netlify.app/",
