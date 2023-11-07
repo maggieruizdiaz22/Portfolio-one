@@ -45,12 +45,12 @@ const Portfolio = () => {
       github: "https://github.com/PDG94/simpleservice",
       live: "https://simple-service-ivory.vercel.app/",
     },
-    {
-      id: 7,
-      src: loquequieras,
-      github: "https://github.com/maggieruizdiaz22/Conversor",
-      live: "https://conversorapp.netlify.app/",
-    },
+    // {
+    //   id: 7,
+    //   src: loquequieras,
+    //   github: "https://github.com/maggieruizdiaz22/Conversor",
+    //   live: "https://conversorapp.netlify.app/",
+    // },
   ];
   return (
     <div name="projects" className="bg-gradient-to-b from-black to-gray-800 w-full md:h-screen text-white"
